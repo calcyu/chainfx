@@ -15,7 +15,7 @@ namespace ChainFx.Web
         // declared actions 
         readonly Map<string, WebAction> actions = new Map<string, WebAction>(32);
 
-        // the default action, can be null
+        // the default action, can be null 
         readonly WebAction @default;
 
         // the catch action, can be null
